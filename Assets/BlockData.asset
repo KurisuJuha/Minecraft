@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 228ebfe3ea5e132428eac951e7f99bfd, type: 3}
+  m_Name: BlockData
+  m_EditorClassIdentifier: 
+  blocksTexture: {fileID: 2800000, guid: acffb667e30726d4f8077a9f4ecb6943, type: 3}
+  blocks:
+  - Name: Air
+    isTransparentBlock: 1
+    frontUVid: 255
+    backUVid: 255
+    rightUVid: 255
+    leftUVid: 255
+    upUVid: 255
+    downUVid: 255
+  - Name: TestBlock
+    isTransparentBlock: 0
+    frontUVid: 0
+    backUVid: 1
+    rightUVid: 1
+    leftUVid: 1
+    upUVid: 1
+    downUVid: 1
+  - Name: TestBlock2
+    isTransparentBlock: 1
+    frontUVid: 1
+    backUVid: 1
+    rightUVid: 1
+    leftUVid: 1
+    upUVid: 1
+    downUVid: 1
